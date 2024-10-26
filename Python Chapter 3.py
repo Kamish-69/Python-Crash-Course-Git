@@ -48,3 +48,32 @@ print()
 print(fruits)
 fruits.insert(4,'strawberry')
 print(fruits)
+
+# Removing Elements
+print()
+print(fruits)
+del fruits[4]
+print(fruits)
+
+# Popping Elements
+fruits = ['mango', 'watermelon', 'apple', 'pear']
+print()
+print(fruits)
+popped_fruit = fruits.pop()
+print(fruits)
+print(popped_fruit)
+
+# Popping Elements from any position
+fruits = ['mango', 'watermelon', 'apple', 'pear']
+print()
+print(fruits)
+popped_fruit = fruits.pop(-1)
+print(fruits)
+print(f"The last fruit in the list was a {popped_fruit}.")
+
+# Removing Elements by value
+things = ['pencil','pen', 'box']
+print()
+print(things)
+things.remove('box')
+print(things)
