@@ -146,3 +146,34 @@ print(f"\n{people[0].title()}, Come over to dinner! You're still invited")
 del people[0]
 print(people)
 
+## TIY Page 46
+
+# TIY 3-8
+places = ['library','hill station','mountains','place4','place5']
+print()
+print()
+print()
+print(places)
+print()
+print(sorted(places))
+print()
+print(places)
+print()
+print(sorted(places, reverse=True))
+print()
+print(places)
+print()
+places.reverse()
+print(places)
+print()
+places.reverse()
+print(places)
+print()
+places.sort()
+print(places)
+print()
+places.sort(reverse=True)
+print(places)
+print()
+
+# TIY 3-9
