@@ -186,6 +186,7 @@ peopleinvited = len(people)
 print(f"I'm inviting a total of {peopleinvited} people.")
 
 # TIY 3-10
+# THIS PROGRAM USES EVERY FUNCTION IN THIS CHAPTER (probably)
 mountains = ['Everest','Etna','Kanchenjunga']
 print()
 print()
