@@ -146,3 +146,6 @@ print(f"\n{people[0].title()}, Come over to dinner! You're still invited")
 del people[0]
 print(people)
 
+# Printing length of Lists
+l = len(things)
+print(f"{l}")
