@@ -187,6 +187,9 @@ print(f"I'm inviting a total of {peopleinvited} people.")
 
 # TIY 3-10
 mountains = ['Everest','Etna','Kanchenjunga']
+print()
+print()
+print()
 print(mountains)
 print(mountains[0])
 print(mountains[-1].upper())
