@@ -139,4 +139,9 @@ pop_person = people.pop()
 print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
 pop_person = people.pop()
 print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
-
+inviting = 'Z'
+people.remove(inviting)
+print(f"\n{inviting.title()}, Come over to dinner! You're still invited")
+print(f"\n{people[0].title()}, Come over to dinner! You're still invited")
+del people[0]
+print(people)
