@@ -177,3 +177,10 @@ print(places)
 print()
 
 # TIY 3-9
+people = ['a', 'b', 'c']
+print()
+people.insert(0,'Z')
+people.insert(2,'E')
+people.append('F')
+peopleinvited = len(people)
+print(f"I'm inviting a total of {peopleinvited} people.")
