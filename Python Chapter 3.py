@@ -114,12 +114,12 @@ print(f"\n\t{people[0].title()}, why don't you come over for dinner?")
 print(f"\n\t{people[1].title()}, why don't you come over for dinner?")
 print(f"\n\t{people[2].title()}, why don't you come over for dinner?")
 
-# TIY 3-6
+# TIY 3-6 and 3-7
 people = ['a', 'b', 'c']
 print()
 print()
 print()
-print("\nOh, would you look at that! I found a bigger dining table. I'll be inviting a few more people :)")
+print("\nOh, would you look at that! I found a bigger dining table for 69$. I'll be inviting a few more people :)")
 people.insert(0,'Z')
 people.insert(2,'E')
 people.append('F')
@@ -130,5 +130,13 @@ print(f"\n\t{people[3].title()}, why don't we have dinner together tonight? Come
 print(f"\n\t{people[4].title()}, why don't we have dinner together tonight? Come over.")
 print(f"\n\t{people[5].title()}, why don't we have dinner together tonight? Come over.")
 
-
+print("\nNOOO, the dinner table won't be arriving on time and now I can only invite two people")
+pop_person = people.pop()
+print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
+pop_person = people.pop()
+print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
+pop_person = people.pop()
+print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
+pop_person = people.pop()
+print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
 
