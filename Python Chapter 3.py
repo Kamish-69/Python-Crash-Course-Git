@@ -78,7 +78,7 @@ print(things)
 things.remove('box')
 print(things)
 
-# Removing and workigg with the value being removed
+# Removing and working with the value being removed
 things = ['pencil','pen', 'box']
 print()
 print(things)
@@ -98,3 +98,18 @@ print()
 print(f"\n\t{people[0].title()}, it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
 print(f"\n\t{people[-2].title()}, it would be amazing to have you over\n\tfor dinner.. 5 PM will be perfect!")
 print(f"\n\t{people[2].capitalize()},it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
+
+# TIY 3'5
+people = ['a', 'b', 'c']
+print()
+print()
+print()
+print(f"\n\t{people[0].title()}, it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
+print(f"\n\t{people[-2].title()}, it would be amazing to have you over\n\tfor dinner.. 5 PM will be perfect!")
+print(f"\n\t{people[2].capitalize()},it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
+print()
+print(f"\n\tOh no, looks like {people[1].title()} won't be able to make it")
+people[1] = 'D'
+print(f"\n\t{people[0].title()}, why don't you come over for dinner?")
+print(f"\n\t{people[1].title()}, why don't you come over for dinner?")
+
