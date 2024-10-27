@@ -99,7 +99,7 @@ print(f"\n\t{people[0].title()}, it would be amazing to have you over\n\tfor din
 print(f"\n\t{people[-2].title()}, it would be amazing to have you over\n\tfor dinner.. 5 PM will be perfect!")
 print(f"\n\t{people[2].capitalize()},it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
 
-# TIY 3'5
+# TIY 3-5
 people = ['a', 'b', 'c']
 print()
 print()
@@ -114,4 +114,16 @@ print(f"\n\t{people[0].title()}, why don't you come over for dinner?")
 print(f"\n\t{people[1].title()}, why don't you come over for dinner?")
 print(f"\n\t{people[2].title()}, why don't you come over for dinner?")
 
-#
+# TIY 3-6
+people = ['a', 'b', 'c']
+print()
+print()
+print()
+print(f"\n\t{people[0].title()}, it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
+print(f"\n\t{people[-2].title()}, it would be amazing to have you over\n\tfor dinner.. 5 PM will be perfect!")
+print(f"\n\t{people[2].capitalize()},it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
+print("\nOh, would you look at that! I found a bigger dining table. I'll be inviting a few more people :)")
+people.insert(0,'Z')
+people.insert(2,'E')
+people.append('F')
+print(f"")
