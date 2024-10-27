@@ -26,6 +26,7 @@ print(f"I really love pizza.")
 
 # TIY 4-2
 birds = ['parrot','hummingbird','crow']
+print()
 for bird in birds:
     print(f"{bird.title()}s can fly.")
-print("All these animals are birds!")
+print("\tAll these animals are birds!")
