@@ -14,4 +14,4 @@ for performer in performers:
     print(f"{performer.title()}, that was an excellent performance!")
     print(f"\tI can't wait to see the next part, {performer.title()}.")
 print()
-print("All of you did amazing, guys! Keep it up")
+print("All of you did amazing, guys! Keep it up.")
