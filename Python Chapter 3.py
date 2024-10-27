@@ -77,3 +77,24 @@ print()
 print(things)
 things.remove('box')
 print(things)
+
+# Removing and workigg with the value being removed
+things = ['pencil','pen', 'box']
+print()
+print(things)
+too_expensive = 'box'
+things.remove(too_expensive)
+print(things)
+print(f"\n{too_expensive.capitalize()} is too expensive for me.")
+
+
+## TIY PAGE NO 42-43
+
+# TIY 3-4
+people = ['a', 'b', 'c']
+print()
+print()
+print()
+print(f"\n\t{people[0].title()}, it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
+print(f"\n\t{people[-2].title()}, it would be amazing to have you over\n\tfor dinner.. 5 PM will be perfect!")
+print(f"\n\t{people[2].capitalize()},it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
