@@ -112,4 +112,6 @@ print(f"\n\tOh no, looks like {people[1].title()} won't be able to make it")
 people[1] = 'D'
 print(f"\n\t{people[0].title()}, why don't you come over for dinner?")
 print(f"\n\t{people[1].title()}, why don't you come over for dinner?")
+print(f"\n\t{people[2].title()}, why don't you come over for dinner?")
 
+#
