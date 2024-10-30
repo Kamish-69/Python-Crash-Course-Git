@@ -1,4 +1,5 @@
 ### Chapter 4 - Working with Lists
+# Note - TIY stands for Try it Yourself exercises
 
 # uhh, loops?
 people = ['david','alex','thomas','Michael']
@@ -59,3 +60,39 @@ print(sum(cubes))
 # List Comprehensions
 cubes = [value ** 2 for value in range(1,11)]
 print(f"\n{cubes}")
+
+## TIY Page 60
+
+# TIY 4-3
+print()
+for value in range(1,21):
+    print(value)
+
+# TIY 4-5
+print()
+million = []
+for value in range(1,1000001):
+    million.append(value)
+print(min(million))
+print(max(million))
+print(sum(million))
+
+# TIY 4-6
+odd = []
+for value in range(1,21,3):
+    odd.append(value)
+    print(odd)
+
+# TIY 4-7
+print()
+threes = list(range(1,31,3))
+for value in threes:
+    print(value)
+
+# TIY 4-8
+print()
+cubes = list(range(1,11))
+for value in cubes:
+    print(value**3)
+
+
