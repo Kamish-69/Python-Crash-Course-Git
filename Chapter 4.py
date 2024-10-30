@@ -17,7 +17,6 @@ print()
 print("All of you did amazing, guys! Keep it up.")
 
 ## TIY Page 56
-
 # TIY 4-1
 pizzas = ['pizza1','pizza2','pizza3']
 for pizza in pizzas:
@@ -30,3 +29,11 @@ print()
 for bird in birds:
     print(f"{bird.title()}s can fly.")
 print("\tAll these animals are birds!")
+
+
+# Testing range() function
+for value in range(1,9):
+    print(value)
+print()
+for value in range(9):
+    print(value)
