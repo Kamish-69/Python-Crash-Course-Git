@@ -38,13 +38,21 @@ print()
 for value in range(9):
     print(value)
 
+# Using range() to make a list of numbers
 cubes = []
 for value in range(1,11):
     cube = value ** 3
     cubes.append(cube)
-print(cubes)
+print(f"\n{cubes}")
 
 cubes = []
 for value in range(1,11):
     cubes.append(value ** 3)
 print(cubes)
+
+# Simple Statistics
+print()
+print(min(cubes))
+print(max(cubes))
+print(sum(cubes))
+
