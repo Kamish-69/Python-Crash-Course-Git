@@ -48,5 +48,40 @@ illegal_topping = 'pineapple'
 if illegal_topping not in requested_topping:
     print(f"\nThank god you didn't ask for {illegal_topping}.")
 
-#
+## TIY Page 78
+
+# TIY 5-1
+requested_topping = 'pineapple'
+print("\n\n\nDid you request for pineapple? I predict false.")
+print(requested_topping == 'pineapple')
+
+print("\nDid you request for pineapple? I predict True")
+print(requested_topping == 'pineapple')
+
+print("\nDid you request for pepperoni? I predict false")
+print(requested_topping == 'pepperoni')
+
+requested_topping = 'pepperoni'
+print("\n Did you request for pepperoni? I predict false")
+print(requested_topping == 'pepperoni')
+
+requested_topping = 'tomato'
+print("\nDid you request for tomato? I predict true")
+print(requested_topping == 'tomato')
+
+print("\nDid you request for tomato? I predict false")
+print(requested_topping == 'tomato')
+
+print("\nDid you request for water on your pizza? I predict false")
+print(requested_topping == 'water')
+
+print("\nDid you request for water on your pizza? I predict true")
+print(requested_topping == 'water')
+
+print("\nDid you request for furniture on your pizza? I predict true")
+print(requested_topping == 'furniture')
+
+print('\nDid you request for furniture on your pizza? I predict false')
+print(requested_topping == 'furniture')
+
 
