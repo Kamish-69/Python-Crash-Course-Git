@@ -95,4 +95,33 @@ cubes = list(range(1,11))
 for value in cubes:
     print(value**3)
 
+# TIY 4-9
+print()
+cubes = [value ** 3 for value in range(1,11)]
+print(cubes)
+
+## Working with Part of Lists
+
+# Slicing a List
+print()
+places = ['New York','Ashburn','Atlanta','Toronto']
+print(places[0:2])
+print(places[:3])
+print(places[1:])
+
+# Looping through a Slice
+players = ['David','Max Verstappen','Fernand Alonso','Lewis Hamilton','Sebastian Vettel']
+print()
+print("Here are the last three players in my team")
+for player in players[-3:]:
+    print(player)
+
+# Copying a List
+f1racers = ['Max Verstappen','Fernand Alonso','Lewis Hamilton','Sebastian Vettel']
+youngster = f1racers[:1]
+print("Some Formula 1 racers are:")
+print(f1racers)
+print()
+print("The youngest one of these is")
+print(youngster)
 
