@@ -22,7 +22,7 @@ david = 19
 if 13 <= Jack <= 19 and 13 <= david <= 19:
     print(f"\n\nJack and David are teenagers.")
 
-# Elif
+# Using 'Elif' function
 Jack = 12
 david = 15
 
@@ -35,4 +35,18 @@ elif 13 <= david <= 19:
 else:
     print("Neither Jack or David is a teenager")
 
+# Checking whether value in list
+requested_topping = 'Pineapple'
+
+if 'pineapple' in requested_topping.lower():
+    print("\n\nIt's illegal to put pineapple on pizza.")
+
+# Checking whether value not in list
+requested_topping = 'tomato'
+illegal_topping = 'pineapple'
+
+if illegal_topping not in requested_topping:
+    print(f"\nThank god you didn't ask for {illegal_topping}.")
+
+#
 
