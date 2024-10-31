@@ -84,4 +84,11 @@ print(requested_topping == 'furniture')
 print('\nDid you request for furniture on your pizza? I predict false')
 print(requested_topping == 'furniture')
 
+# TIY 5-2
+car = 'ferrari'
 
+if car.lower() == 'ferrari':
+    print('\nFerrari indeed is a good car.')
+
+if car.lower() != 'audi':
+    print("\nWell okay, but ferrari is better.")
