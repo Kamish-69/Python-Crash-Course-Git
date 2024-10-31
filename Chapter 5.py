@@ -91,4 +91,31 @@ if car.lower() == 'ferrari':
     print('\nFerrari indeed is a good car.')
 
 if car.lower() != 'audi':
-    print("\nWell okay, but ferrari is better.")
+    print("\nYeah okay, but ferrari is better.")
+
+
+david = 15
+print()
+print(13 <= david <= 19)
+print(12 >= david >=20)
+print(david == 21)
+print(david != 21)
+print(david > 40)
+print(david < 50)
+
+if david >= 13 and david >=19:
+    print("David is a teenager")
+
+if (13 <= david <=19) or (david < 10):
+    print('David is either a teenager or under age of 10')
+
+
+cars = ['ferrari','audi','bmw','toyota']
+
+if 'ferrari' in cars:
+    print(f"Ferrari is in {cars} list.")
+
+if 'mercedes' not in cars.lower():
+    print('Why is Mercedes not in the list?')
+
+
