@@ -104,18 +104,23 @@ print(david > 40)
 print(david < 50)
 
 if david >= 13 and david >=19:
-    print("David is a teenager")
+    print("\nDavid is a teenager")
 
 if (13 <= david <=19) or (david < 10):
-    print('David is either a teenager or under age of 10')
+    print('\nDavid is either a teenager or under age of 10')
+    # or you can do what is asked and just test instead of printing messages
 
 
 cars = ['ferrari','audi','bmw','toyota']
 
 if 'ferrari' in cars:
-    print(f"Ferrari is in {cars} list.")
-
-if 'mercedes' not in cars.lower():
+    print(f"\nFerrari is in {cars} list.")
+if 'mercedes' not in cars:
     print('Why is Mercedes not in the list?')
+
+    # or you can simply do what is asked like so:-
+print('ferrari' in cars)
+print('mercedes' not in cars)
+
 
 
