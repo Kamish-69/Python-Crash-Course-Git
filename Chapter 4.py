@@ -111,17 +111,48 @@ print(places[1:])
 
 # Looping through a Slice
 players = ['David','Max Verstappen','Fernand Alonso','Lewis Hamilton','Sebastian Vettel']
-print()
-print("Here are the last three players in my team")
+print("\nHere are the last three players in my team")
 for player in players[-3:]:
     print(player)
 
 # Copying a List
-f1racers = ['Max Verstappen','Fernand Alonso','Lewis Hamilton','Sebastian Vettel']
+f1racers = ['Max Verstappen','Fernando Alonso','Lewis Hamilton','Sebastian Vettel']
 youngster = f1racers[:1]
-print("Some Formula 1 racers are:")
+print("\n\nSome Formula 1 racers are:")
 print(f1racers)
-print()
-print("The youngest one of these is")
+print("\nThe youngest one of these racers is")
 print(youngster)
+
+## TIY Page 65
+
+# TIY 4-10
+f1racers = ['Max Verstappen','Fernando Alonso', 'Lewis Hamilton','Sebastian Vettel','Michael Schumacher']
+print(f"\n\n\nThe first three racers in the list are {f1racers[:3]}")
+print("\nThe middle three racers in the list are:")
+print(f1racers[1:-1])
+print(f"\nThe last three racers in the list are {f1racers[-3:]}")
+
+# TIY 4-11
+pizzas = ['pizza1','pizza2','pizza3']
+friend_pizzas = pizzas[:]
+pizzas.append('pizza4')
+friend_pizzas.append('friend_pizza')
+print("\n\nMy favourite pizzas are:")
+for pizza in pizzas:
+    print(pizza)
+print("\nMy friend's most liked pizzas are:")
+for pizza in friend_pizzas:
+    print(pizza)
+
+# TIY 4-12
+my_foods = ['pizza','falafel','carrot cake']
+friend_foods = my_foods[:]
+
+print("\n\nMy favourite foods are:")
+for food in my_foods:
+    print(food)
+
+print("\nNy friend's favourite food are:")
+for food in friend_foods:
+    print(food)
 
