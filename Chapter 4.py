@@ -1,4 +1,4 @@
-### Chapter 4 - Working with Lists
+##### Chapter 4 - Working with Lists
 # Note - TIY stands for Try it Yourself exercises
 
 # uhh, loops?
@@ -155,4 +155,42 @@ for food in my_foods:
 print("\nNy friend's favourite food are:")
 for food in friend_foods:
     print(food)
+
+
+## Tuples
+
+# Defining a Tuple
+dimensions = (15,12,10)
+print(f"\n\n\n{dimensions[1]}")
+
+print()
+for dimension in dimensions:
+    print(dimension)
+
+    # Note - Tuples can't be modified, but we can assign a new value(tuple) to the variable that represents the original tuple, like so:
+example_tuple = (37, 37, 37)
+print("\n\nOriginal Tuple:")
+print(example_tuple)
+
+example_tuple = (11, 12, 13)
+print("\nModified Tuple:")
+print(example_tuple)
+
+
+## TIY Page 68
+
+# TIY 4-13
+menu = ('Food1','Food2','Food3','Food4','Food5')
+print("\n\n\nRestaurant X offers five delicacies, namely: ")
+for food in menu:
+    print(food)
+
+# menu[0] = 'Pizza'  (this was part of the TIY, attempt to modify the tuple and fail miserably)
+
+menu = ('Ice Cream','Milkshake','Food3','Food4','Food5')
+print("\nRestaurant X's revised menu offers:")
+for food in menu:
+    print(food)
+
+
 
