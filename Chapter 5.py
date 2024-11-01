@@ -2,6 +2,8 @@
 
 # A Simple Example
 cars = ['ferrari','audi','bmw','toyota']
+
+print()
 for car in cars:
     if car == 'bmw':
         print(car.upper())
@@ -124,4 +126,9 @@ print('mercedes' not in cars)
 
 
 # If Statements
+age = 19
+
+if age >= 18:
+    print("\n\n\nYou are old enough to vote!")
+    print("\nHave you registered to vote yet?")
 
