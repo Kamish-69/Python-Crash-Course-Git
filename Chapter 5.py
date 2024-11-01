@@ -130,5 +130,19 @@ age = 19
 
 if age >= 18:
     print("\n\n\nYou are old enough to vote!")
-    print("\nHave you registered to vote yet?")
+    print("Have you registered to vote yet?")
+else:
+    print("\nSorry, you are too young to vote yet.")
+    print("Make sure to register so you can vote once you turn 18.")
+
+# The if-elif-else chain  ( which i learned earlier in the previous chapter from Chatgpt)
+age = 11
+
+print("\n")
+if age <= 4:
+    print("Your admission cost is 0")
+elif age < 18:
+    print("Your admission cost is 4$")
+else:
+    print("You admission cost is 70$")
 
