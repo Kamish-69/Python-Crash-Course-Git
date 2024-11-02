@@ -222,3 +222,37 @@ elif alien_color == 'yellow':
     print("You just earned 10 points!")
 else:
     print("You just earned 15 points!")
+
+
+# TIY 5-6
+age = 20
+print('\n')
+
+if age < 2:
+    print("He is a baby")
+elif age < 4:
+    print("He is a toddler")
+elif age < 13:
+    print("He is a kid")
+elif age < 20:
+    print("He is a teenager")
+elif age < 65:
+    print("He is an adult")
+else:
+    print("He is an elder")
+
+
+# TIY 5-7
+favourite_fruits = ['mango','orange','watermelon',]
+print("\n")
+
+if 'mango' in [fruit.lower() for fruit in favourite_fruits]:
+    print("You really like mangoes!")
+if 'grapes' in [fruit.lower() for fruit in favourite_fruits]:
+    print("\nYou really like grapes!")
+if 'dragonfruit' in [fruit.lower() for fruit in favourite_fruits]:
+    print("\nYou really like dragonfruits!")
+if 'orange' in [fruit.lower() for fruit in favourite_fruits]:
+    print("\nYou really like oranges!")
+if 'apple' in [fruit.lower() for fruit in favourite_fruits]:
+    print("\nYou really like apples!")
