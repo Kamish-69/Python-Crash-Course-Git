@@ -136,7 +136,7 @@ else:
     print("Make sure to register so you can vote once you turn 18.")
 
 # The if-elif-else chain  ( which i learned earlier in the previous chapter from Chatgpt)
-age = 11
+age = 21
 
 print("\n")
 if age <= 4:
@@ -145,4 +145,16 @@ elif age < 18:
     print("Your admission cost is 4$")
 else:
     print("You admission cost is 70$")
+
+    # A better way to do this
+age = 17
+
+if age <=4:
+    price = 0
+elif age <=18:
+    price = 20
+else:
+    price = 70
+
+print(f"\nYour admission cost is ${price}.")
 
