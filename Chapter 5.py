@@ -191,3 +191,14 @@ if alien_color == 'green':
 else:
     print("You earned 10 points!")
 
+
+# TIY 5-5
+alien_color = 'green'
+print("\n")
+
+if alien_color == 'green':
+    print("Congrats, you just earned 5 points!")
+elif alien_color == 'yellow':
+    print("Congrats, you just earned 10 points!")
+else:
+    print("Congrats, you just earned 15 points!")
