@@ -223,3 +223,4 @@ elif alien_color == 'yellow':
 else:
     print("You just earned 15 points!")
 
+ 
