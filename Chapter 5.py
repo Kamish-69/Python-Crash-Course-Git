@@ -135,7 +135,7 @@ else:
     print("\nSorry, you are too young to vote yet.")
     print("Make sure to register so you can vote once you turn 18.")
 
-# The if-elif-else chain  ( which i learned earlier in the previous chapter from Chatgpt)
+# The if-elif-else chain  ( which I had learned earlier in the previous chapter from the internet)
 age = 21
 
 print("\n")
@@ -153,8 +153,41 @@ if age <=4:
     price = 0
 elif age <=18:
     price = 20
-else:
-    price = 70
+else:                           # Note - In cases where you have a specific final condition, consider using a final 'elif' block
+    price = 70                  # and omit the else block. Bonus confidence that the code will run only under correct conditions.
 
 print(f"\nYour admission cost is ${price}.")
+
+
+## TIY Page 84
+
+# TIY 5-3
+alien_color = 'green'
+print("\n\n")
+
+if alien_color == 'green':
+    print("Congratulations , you just earned 5 points!")
+
+alien_color = 'red'
+
+if alien_color == 'green':
+    print("Congratulations, you just earned 5 points")
+
+
+# TIY 5-4
+alien_color = 'green'
+print("\n")
+
+if alien_color == 'green':
+    print("You earned 5 points!")
+else:
+    print("You earned 10 points!")
+
+alien_color = 'yellow'
+print()
+
+if alien_color == 'green':
+    print("You earned 5 points!")
+else:
+    print("You earned 10 points!")
 
