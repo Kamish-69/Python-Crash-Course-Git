@@ -9,55 +9,58 @@ print(fruits[-2].capitalize())
 
 
 ## Page 35 - Using individual values like variables
-msg1 = f"\nI like {fruits[-4].title()}es."
-print(msg1)
+msg = f"\nI like {fruits[-4].title()}es."
+print(msg)
 
 
 ## TIY Page no 36
 
 # TIY 3-1 and 3-2 together
 names = ['football', 'soccer', 'english', 'harry potter']
-print(f"\nI like {names[0].title()} or for Americans, {names[-2].capitalize()}.")
-print(f"{names[2].capitalize()} has always been my strong subject \never since reading {names[-1].title()}. ")
+print(f'\nI like playing {names[0]}, or for Americans, "{names[-3].lower()}".')
+print(f"\n{names[2].capitalize()} has always been my strong subject \never since reading {names[-1].title()}. ")
 
 # TIY 3-3
 vehicle = ['car', 'plane', 'train']
 print(f"\n{vehicle[0].title()}s run on roads.")
 print(f"{vehicle[-2].capitalize()}s fly.")
-print(f"I like {vehicle[2]}s.")
+print(f"I like {vehicle[2]}s.")        # I don't have any actual "liking" to trains in particular,
+                                       #     I just couldn't think of what to write.
 
 
 ## Modifying, Adding and Removing Elements in a list
 
 # Modifying Elements
+print("\n\nModifying Elements:")
 fruits = ['mango', 'watermelon', 'apple', 'guava']
 print(fruits)
 fruits[-1] = 'pear'
 print(fruits)
 
-# Adding(appending?) Elements
+# Adding("Appending") Elements
+print("\nAdding/Appending Elements:")
 fruits = ['mango', 'watermelon', 'apple', 'pear']
-print()
 print(fruits)
 fruits.append('pineapple')
 print(fruits)
 
 # Inserting Elements
 fruits = ['mango', 'watermelon', 'apple', 'pear']
-print()
+print('\nInserting Elements:')
 print(fruits)
-fruits.insert(4,'strawberry')
+fruits.insert(3,'strawberry')
 print(fruits)
 
 # Removing Elements
-print()
-print(fruits)
+fruits = ['mango', 'watermelon', 'apple', 'strawberry', 'pear']
+print('\nRemoving Elements:')
+print(f'{fruits}')
 del fruits[4]
 print(fruits)
 
 # Popping Elements
 fruits = ['mango', 'watermelon', 'apple', 'pear']
-print()
+print('\nPopping Elements:')
 print(fruits)
 popped_fruit = fruits.pop()
 print(fruits)
@@ -65,7 +68,7 @@ print(popped_fruit)
 
 # Popping Elements from any position
 fruits = ['mango', 'watermelon', 'apple', 'pear']
-print()
+print('\nPopping Elements from any position:')
 print(fruits)
 popped_fruit = fruits.pop(-1)
 print(fruits)
@@ -73,14 +76,14 @@ print(f"The last fruit in the list was a {popped_fruit}.")
 
 # Removing Elements by value
 things = ['pencil','pen', 'box']
-print()
+print('\nRemoving Elements by value:')
 print(things)
 things.remove('box')
 print(things)
 
 # Removing and working with the value being removed
 things = ['pencil','pen', 'box']
-print()
+print('\nRemoving and working with the value being removed:')
 print(things)
 too_expensive = 'box'
 things.remove(too_expensive)
@@ -130,7 +133,7 @@ print(f"\n\t{people[3].title()}, why don't we have dinner together tonight? Come
 print(f"\n\t{people[4].title()}, why don't we have dinner together tonight? Come over.")
 print(f"\n\t{people[5].title()}, why don't we have dinner together tonight? Come over.")
 
-print("\nNOOO, the dinner table won't be arriving on time and now I can only invite two people")
+print("\nOh no, the dinner table won't be arriving on time and  I can only invite two people")
 pop_person = people.pop()
 print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
 pop_person = people.pop()
@@ -182,8 +185,8 @@ print()
 people.insert(0,'Z')
 people.insert(2,'E')
 people.append('F')
-peopleinvited = len(people)
-print(f"I'm inviting a total of {peopleinvited} people.")
+people_invited = len(people)
+print(f"I'm inviting a total of {people_invited} people.")
 
 # TIY 3-10
 # THIS PROGRAM USES EVERY FUNCTION IN THIS CHAPTER (probably)

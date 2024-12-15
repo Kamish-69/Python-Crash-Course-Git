@@ -251,7 +251,7 @@ if 'mango' in [fruit.lower() for fruit in favourite_fruits]:
 if 'grapes' in [fruit.lower() for fruit in favourite_fruits]:
     print("\nYou really like grapes!")
 if 'dragonfruit' in [fruit.lower() for fruit in favourite_fruits]:
-    print("\nYou really like dragonfruits!")
+    print("\nYou really like dragon-fruits!")
 if 'orange' in [fruit.lower() for fruit in favourite_fruits]:
     print("\nYou really like oranges!")
 if 'apple' in [fruit.lower() for fruit in favourite_fruits]:

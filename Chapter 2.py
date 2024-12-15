@@ -1,9 +1,9 @@
 # TIY P1 of Chapter 2. Page no 25
 
-# An unnecesarily complex way to write a simple sentence
-fn= "eric"
-ln= "watson"
-full_name = f"{fn.title()} {ln.title()}"
+# An unnecessarily complex way to write a simple sentence
+first_name= "eric"
+last_name= "watson"
+full_name = f"{first_name.title()} {last_name.title()}"
 msg = f"Hello {full_name}, \nwould you like to learn some Python today?"
 print(msg)
 
@@ -22,7 +22,7 @@ print(message)
 
 # Sherlock Holmes but im removing spaces
 name = "   sherlock holmes   "
-msg = f"\n\t{name.title()}"
+msg = f"\n{name.title()}"
 print(msg)
 print(msg.lstrip())
 print(msg.rstrip())
@@ -35,13 +35,8 @@ print(msg.strip())
 print(4+4)
 print(4*2)
 print(2 ** 3)
-print(3 + 5)
+print(10 - 2)
 
-# My favourite number
+# A number
 NUM = 7
-print(f"My favourite number is {NUM}")
-
-
-
-
-
+print(f"Number is {NUM}")
