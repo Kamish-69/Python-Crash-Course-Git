@@ -41,8 +41,8 @@ for value in range(9):
 
 # Using range() to make a list of numbers
 cubes = []
-for value in range(1,11):
-    cube = value ** 3
+for number in range(1,11):
+    cube = number ** 3
     cubes.append(cube)
 print(f"\n{cubes}")
 
@@ -58,8 +58,8 @@ print(max(cubes))
 print(sum(cubes))
 
 # List Comprehensions
-cubes = [value ** 2 for value in range(1,11)]
-print(f"\n{cubes}")
+squares = [value ** 2 for value in range(1,11)]
+print(f"\n{squares}")
 
 ## TIY Page 60
 

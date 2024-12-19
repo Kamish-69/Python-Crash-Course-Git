@@ -25,7 +25,7 @@ vehicle = ['car', 'plane', 'train']
 print(f"\n{vehicle[0].title()}s run on roads.")
 print(f"{vehicle[-2].capitalize()}s fly.")
 print(f"I like {vehicle[2]}s.")        # I don't have any actual "liking" to trains in particular,
-                                       #     I just couldn't think of what to write.
+                                       #     I just couldn't think of what to write. (Wow, I just found out- it's a meme??!!)
 
 
 ## Modifying, Adding and Removing Elements in a list
@@ -70,9 +70,9 @@ print(popped_fruit)
 fruits = ['mango', 'watermelon', 'apple', 'pear']
 print('\nPopping Elements from any position:')
 print(fruits)
-popped_fruit = fruits.pop(-1)
+popped_fruit = fruits.pop(-4)
 print(fruits)
-print(f"The last fruit in the list was a {popped_fruit}.")
+print(f"The first fruit in the list was a {popped_fruit}.")
 
 # Removing Elements by value
 things = ['pencil','pen', 'box']
@@ -88,7 +88,7 @@ print(things)
 too_expensive = 'box'
 things.remove(too_expensive)
 print(things)
-print(f"\n{too_expensive.capitalize()} is too expensive for me.")
+print(f"\t{too_expensive.capitalize()} is too expensive for me.")
 
 
 ## TIY PAGE NO 42-43
@@ -117,6 +117,22 @@ print(f"\n\t{people[0].title()}, why don't you come over for dinner?")
 print(f"\n\t{people[1].title()}, why don't you come over for dinner?")
 print(f"\n\t{people[2].title()}, why don't you come over for dinner?")
 
+
+        # Variation of TIY 3-5 with Popping  (From the Future)     Note - Notes from the future will have '-F' at the end   -F
+people = ['a', 'b', 'c']
+print(f"\n\n\n\n\t{people[0].title()}, it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
+print(f"\n\t{people[-2].title()}, it would be amazing to have you over\n\tfor dinner.. 5 PM will be perfect!")
+print(f"\n\t{people[2].capitalize()},it would be amazing to have you over\n\tfor dinner..5 PM will be perfect!")
+boring_person = 'b'
+people.remove(boring_person)
+print(f"\n\n\tAh, looks like {boring_person.title()} won't be able to make it...")
+people.insert(1,'D')
+print(f"\n\t{people[0].title()}, come over for dinner!")
+print(f"\n\t{people[1].title()}, come over for dinner!")
+print(f"\n\t{people[-1].title()}, come over for dinner!")
+
+        # Hmm, seems good... Back to present   -F
+
 # TIY 3-6 and 3-7
 people = ['a', 'b', 'c']
 print()
@@ -142,10 +158,10 @@ pop_person = people.pop()
 print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
 pop_person = people.pop()
 print(f"\n{pop_person.title()}, I'm really sorry, but looks like I won't be able to invite you for dinner")
-inviting = 'Z'
-people.remove(inviting)
-print(f"\n{inviting.title()}, Come over to dinner! You're still invited")
+print(f'\n\n{people}')
 print(f"\n{people[0].title()}, Come over to dinner! You're still invited")
+print(f"{people[1].title()}, Come over to dinner! You're still invited")
+del people[0]
 del people[0]
 print(people)
 
@@ -182,14 +198,14 @@ print()
 # TIY 3-9
 people = ['a', 'b', 'c']
 print()
-people.insert(0,'Z')
-people.insert(2,'E')
-people.append('F')
+people.insert(0,'d')
+people.insert(2,'e')
+people.append('f')
 people_invited = len(people)
 print(f"I'm inviting a total of {people_invited} people.")
 
 # TIY 3-10
-# THIS PROGRAM USES EVERY FUNCTION IN THIS CHAPTER (probably)
+# THIS PROGRAM USES EVERY FUNCTION IN THIS CHAPTER (hopefully)
 mountains = ['Everest','Etna','Kanchenjunga']
 print()
 print()
